@@ -21,43 +21,5 @@
     "ts-loader": "^9.4.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
-  },
-  "eslintConfig": {
-    "parser": "@typescript-eslint/parser",
-    "plugins": [
-      "@typescript-eslint"
-    ],
-    "extends": [
-      "eslint:recommended",
-      "plugin:@typescript-eslint/recommended"
-    ],
-    "rules": {
-      "indent": [
-        "error",
-        2,
-        {
-          "SwitchCase": 1
-        }
-      ],
-      "@typescript-eslint/no-empty-interface": "off",
-      "@typescript-eslint/no-empty-function": "warn",
-      "@typescript-eslint/type-annotation-spacing": 2,
-      "@typescript-eslint/no-namespace": "off",
-      "@typescript-eslint/member-delimiter-style": [
-        "error",
-        {
-          "multiline": {
-            "delimiter": "semi",
-            "requireLast": true
-          },
-          "singleline": {
-            "delimiter": "semi",
-            "requireLast": false
-          }
-        }
-      ]
-    }
-  },
-  "dependencies": {
   }
 }
